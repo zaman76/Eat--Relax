@@ -5,7 +5,7 @@ body{
 
 .nav-bar {
     display: flex;
-    margin-left: 60%;
+    
     background-color: rgb(0, 0, 0);
     
 }
@@ -74,11 +74,17 @@ h1{
 
 .about{
     margin-left: 20%;
+    
+}
+.about-img{
+    width: 50%;
 }
 
 .mid-back{
     background-image: url("images/frame.png");
     background-repeat: no-repeat;
+    width: 100%;
+    display: flex;
     
 }
 
