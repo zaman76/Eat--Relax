@@ -1,0 +1,156 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+.nav-bar {
+    display: flex;
+    margin-left: 60%;
+    background-color: rgb(0, 0, 0);
+    
+}
+
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 10px;
+    
+}
+
+.nav-links ul a{
+    color: rgb(219, 218, 218);
+    text-decoration: none;
+    font-size: 14px;
+}
+
+
+h1{
+    font-size: 50px;
+}
+
+.green{
+    color: rgb(31, 161, 70);
+}
+
+.container{
+    display: flex;
+    margin-bottom: 200px;
+}
+
+.half-width{
+    width: 50%;
+    padding-left: 2%;
+    margin-top: 50px;
+    margin-left: 10px;
+    padding-top: 80px;
+    
+}
+.main-img img{
+    width: 65%;
+    float: right;
+    margin-top: 40px;
+
+    padding-right: 10%;
+    
+}
+
+.button{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(39, 121, 18), rgb(90, 231, 85));
+    font-weight: 700;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: white;
+    
+}
+
+.mid-container{
+    display: flex;
+    margin-bottom: 150px;
+    
+    /* height: 500px; */
+
+}
+
+.about{
+    margin-left: 20%;
+}
+
+.mid-back{
+    background-image: url("images/frame.png");
+    background-repeat: no-repeat;
+    
+}
+
+.mid-text{
+    text-align: center ;
+    margin-left: 8%;
+    padding-bottom: 100px;
+    
+}
+
+.rec{
+    display: flex;
+    margin-bottom: 150px;
+}
+
+.rec-item{
+    width: 30%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 40px gray;
+}
+
+.rec-item img{
+    height: 170px;
+    width: 185px;
+    padding-left: 60px;
+    
+}
+
+
+
+.followers{
+    display: flex;
+    margin-bottom: 40px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 80px rgb(224, 224, 224);
+}
+
+.fol-items{
+    
+    font-weight:bold;
+    margin-left: 20%;
+}
+
+.feedback{
+    display: flex;
+   
+}
+
+.fed{
+    width: 60%;
+    padding-left: 8%;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding-top: 50px;
+}
+
+footer{
+    background-color: rgb(110, 206, 212);
+    margin-top: 10%;
+    padding-left: 40%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border: 0;
+}
+footer h2{
+    padding-left: 120px;
+    
+}
+
+.orange{
+    color: tomato;
+}
