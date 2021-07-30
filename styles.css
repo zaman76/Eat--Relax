@@ -75,12 +75,14 @@ h1{
 }
 
 
-
+.recipe{
+    margin-top: 18%;
+}
 
 .recipe-text{
     text-align: center ;
     margin-left: 8%;
-    padding-bottom: 70px;
+    padding-bottom: 20px;
     
 }
 
@@ -89,7 +91,7 @@ h1{
     flex-wrap: wrap;
     
     margin-bottom: 5%;
-    margin-left: 15%;
+    margin-left: 20%;
     margin-right: 15%;
     
 }
@@ -113,7 +115,14 @@ h1{
 }
 
 .list-title{
-    margin-left: 2%;
+    /* margin-left: 2%; */
+    text-align: center;
+    background-image: linear-gradient(rgb(18, 79, 158), rgb(60, 184, 233));
+    font-weight: 700;
+    padding: 10px 15px;
+    border-radius: 10px;
+    color: white;
+    
 }
 
 .followers{
