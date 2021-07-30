@@ -61,9 +61,7 @@ h1{
     width: 65%;
     float: right;
     margin-top: 40px;
-
-    padding-right: 10%;
-    
+    padding-right: 10%;    
 }
 
 .button{
@@ -76,43 +74,30 @@ h1{
     
 }
 
-.mid{
-    display: flex;
-    margin-top: 100px;
-    margin-bottom: 100px ;
-    
-}
-
-.backframe{
-    background-image: url("images/frame.png");
-}
-
-.mid-about{
-    margin-left: 23%;
-    margin-right: 2%;
-    padding-top: 3%;
-    padding-right: 7%;;
-}
-
 
 
 
 .recipe-text{
     text-align: center ;
     margin-left: 8%;
-    padding-bottom: 100px;
+    padding-bottom: 70px;
     
 }
 
 .rec{
-    display: flex;
-    margin-bottom: 300px;
+    display:flex;
+    flex-wrap: wrap;
+    
+    margin-bottom: 5%;
     margin-left: 15%;
+    margin-right: 15%;
     
 }
 
+
 .rec-item{
     width: 18%;
+    margin-top: 4%;
     margin-left: 2%;
     margin-right: 2%;
     padding: 40px;
@@ -123,12 +108,13 @@ h1{
 .rec-item img{
     height: 200px;
     width: 200px;
-    margin-left: 15px;
     border-radius: 30px;
     
 }
 
-
+.list-title{
+    margin-left: 2%;
+}
 
 .followers{
     display: flex;
